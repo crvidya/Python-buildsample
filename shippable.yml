@@ -6,4 +6,4 @@ before_script: mkdir -p shippable/codecoverage
 script: 
   - coverage run --branch python/sample.py
   - coverage xml -o shippable/codecoverage/coverage.xml python/sample.py
-  - python -m test
+  - python -m unittest python/sample.py Shippable/testresults
