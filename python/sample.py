@@ -32,8 +32,7 @@ class IsOddTests(unittest.TestCase):
 
 def main():
     unittest.main()
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestSequenceFunctions)
-unittest.TextTestRunner(verbosity=2).run(suite)
+    
 
 if __name__ == '__main__':
     main()
